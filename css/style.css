@@ -160,7 +160,7 @@ a {
 /* SECTION1 */
 .hero-section {
   height: 600px;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("/images/people-office1.webp") no-repeat; */
   background-image: linear-gradient(
@@ -357,10 +357,6 @@ img {
   position: relative;
 } */
 
-.hidden-text {
-  /* display: none; */
-}
-
 .products li .img-card {
   position: relative;
   overflow: hidden;
@@ -397,7 +393,6 @@ img {
 .modal {
   position: relative;
   background-color: rgb(255, 255, 255);
-  
 
   width: 408px;
   height: 584px;
@@ -415,6 +410,10 @@ img {
   visibility: hidden;
 }
 
+.form {
+  margin: 70px 10px 30px 10px;
+}
+
 .form-group {
   display: flex;
   flex-direction: column;
@@ -424,4 +423,41 @@ img {
 .form-label {
   display: flex;
   flex-direction: column;
+}
+
+.form-label1 {
+  display: flex;
+  flex-direction: row;
+}
+.form-label2 {
+  margin: 0 auto;
+}
+
+.textbox {
+  height: 40px;
+}
+
+.textbox,
+textarea {
+  outline-color: rgba(77, 90, 229, 1);
+}
+
+textarea {
+  padding: 10px;
+}
+
+input[name="Privacypolicy"] {
+  margin: 0 10px 0 0;
+}
+
+.form button[type="submit"] {
+  margin-top: 20px;
+  height: 56px;
+  width: 169px;
+  padding: 16px 32px 16px 32px;
+  background-color: rgba(77, 90, 229, 1);
+  color: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
 }
