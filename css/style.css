@@ -395,14 +395,33 @@ img {
 }
 
 .modal {
+  position: relative;
   background-color: rgb(255, 255, 255);
+  
 
-  width: 400px;
-  height: 400px;
-  transform: scale(2);
-  transition-duration: 500ms;
+  width: 408px;
+  height: 584px;
+  border-radius: 4px;
+}
+
+.modal .close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-radius: 50%;
 }
 
 .is-hidden {
   visibility: hidden;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
 }
