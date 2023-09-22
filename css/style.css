@@ -393,10 +393,10 @@ img {
   gap: 24px;
   padding: 20px 0 0 0;
 }
-.subscribefooterlabel {
+/* .subscribefooterlabel {
   display: flex;
   gap: 24px;
-}
+} */
 
 .subscribefooterlabel .textbox {
   gap: 24px;
