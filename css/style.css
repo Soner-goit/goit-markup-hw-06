@@ -635,6 +635,10 @@ img {
 
 /* INPUT TEXT BOX AND LABELS */
 
+.textboxlabelgroup {
+  margin-bottom: 8px;
+}
+
 .form-label {
   display: block;
   gap: 4px;
