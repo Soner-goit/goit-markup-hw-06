@@ -13,6 +13,7 @@
   --footer-text: #f4f4fd;
   --borderbuttoncolor: #e7e9fc;
   --linkiconcolor: #8e8f99;
+  --span-checked-background: #404bbf;
 }
 
 body {
@@ -741,6 +742,12 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+input[type="checkbox"]:checked + .checkboxspan {
+  background-color: var(--span-checked-background);
+  border: none;
+  fill: var(--footer-text);
 }
 
 .modal .herobutton {
