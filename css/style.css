@@ -725,7 +725,11 @@ img {
   letter-spacing: 0.04em;
 }
 
-.privacyspan {
+.checkboxlabel .link {
+  color: var(--logo-color);
+}
+
+.checkboxspan {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -739,6 +743,6 @@ img {
   fill: transparent;
 }
 
-.form-label2 {
-  margin: 20px auto;
+.modal .herobutton {
+  margin: 0 auto;
 }
