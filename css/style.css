@@ -744,7 +744,7 @@ img {
   fill: transparent;
 }
 
-.checkboxspan:active {
+.checkboxinput:checked + .checkboxspan {
   background-color: var(--span-checked-background);
   border: none;
   fill: var(--footer-text);
