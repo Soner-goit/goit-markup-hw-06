@@ -140,9 +140,9 @@ img {
   gap: 40px;
 }
 
-/* HERO3 SECTION */
+
 .herosection {
-  /* background-color: var(--logo-span-color); */
+
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
